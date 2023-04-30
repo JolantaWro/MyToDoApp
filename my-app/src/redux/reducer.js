@@ -9,6 +9,6 @@ function reducerTasks (state=initialStation, action) {
     }
 }
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
     tasks: reducerTasks
 })
