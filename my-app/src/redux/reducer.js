@@ -1,4 +1,10 @@
 import {combineReducers} from "redux";
+import {ADD_TASK, CHANGE_TASK, REMOVE_TASK} from "./actions";
+
+function maxIdTasks(array) {
+    const maxId = array.reduce((maxId, element) => Math.max(element.id, maxId), -1)
+    return maxId + 1
+}
 
 const initialStation = [];
 
