@@ -1,4 +1,3 @@
-import React from 'react';
 import {connect} from "react-redux";
 import Do from "../components/Task/Do";
 import {tasksToDoSelector} from "../redux/selectors";

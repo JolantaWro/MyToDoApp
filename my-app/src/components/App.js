@@ -1,7 +1,13 @@
 import logo from '../logo.svg';
 import '../App.css';
+import 'bulma/css/bulma.min.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Layout from "./Layout";
+import TasksContainer from "../container/TasksContainer";
+import SingleTask from "../container/SingleTask";
+import AddTask from "../container/AddTask";
+import Done from "../container/Done";
+import Do from "../container/ToDo";
 
 function App() {
   return (
