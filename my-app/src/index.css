@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+/*.container {*/
+/*  background-color: pink;*/
+/*}*/
+
 .note {
-  text-align: center;
+  margin-left: 100px;
+  text-align: left;
+  /*padding: 20px;*/
 }
