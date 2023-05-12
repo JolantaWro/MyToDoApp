@@ -18,6 +18,11 @@ code {
 
 .note {
   margin-left: 100px;
-  text-align: left;
-  /*padding: 20px;*/
+  text-align: left;;
+  padding: 20px;
 }
+
+.note div {
+  margin: 20px;
+}
+
