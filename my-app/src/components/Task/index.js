@@ -1,11 +1,14 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import { DatePicker } from 'antd';
+
 
 
 const AllTasks = ({tasks, removeTask, changeTask}) => {
 
     return (
         <>
+            <DatePicker />
             {tasks.length === 0 && <div className="note">Brak wpisów!</div>}
 
             {tasks.length > 0 && tasks.map(el => (<>
